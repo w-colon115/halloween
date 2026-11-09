@@ -1,0 +1,61 @@
+html, body {
+    height: 100%; /* Ensures the entire page is covered */
+    margin: 0; /* Removes default margin */
+}
+
+body {
+    background-color: #FFA500;
+    background-image: url('images/backround.jpg'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire viewport */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-attachment: fixed; /* Optional: Keeps the background fixed while scrolling */
+}
+
+.container {
+    text-align: center;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    border-radius: 10px; /* Rounded corners */
+    max-width: 800px; /* Optional: Limit the container width */
+    margin: 0 auto; /* Centers the container horizontally */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+}
+.container-image {
+    display: block;
+    margin: 0 auto; /* Centers the image */
+    max-width: 100%; /* Ensures the image is responsive */
+    height: auto; /* Maintains the aspect ratio */
+    margin-bottom: 20px; /* Adds space below the image */
+    border-radius: 10px; /* Matches the container's rounded corners */
+    overflow: hidden; /* Ensures the image respects the border-radius */
+}
+
+/* Assign fonts later */
+h1 {
+    font-family: 'Metal Mania', cursive; /* Special font for headings */
+    font-size: 5rem; /* Increases the font size */
+    color: rgb(233, 192, 115); /* Same orange as h2 link */
+    text-shadow: 2px 2px 0px rgb(0, 0, 0), -2px -2px 0px white, 
+                 -2px 2px 0px rgb(0, 0, 0), 2px -2px 0px rgb(0, 0, 0); /* White outline */
+}
+h2 a {
+    margin-top: 0%;
+    color: rgb(233, 192, 115); /* Sets the link color to orange */
+    text-decoration: none; /* Removes the underline (optional) */
+}
+
+h2 a:hover {
+    text-decoration: underline; /* Adds underline on hover (optional) */
+}
+
+p {
+    font-family: 'Merienda', cursive; /* Special font for paragraphs */
+    font-size: 2rem; /* Increases the font size */
+}
+
+button {
+    font-family: 'Merienda', cursive; /* Font for buttons */
+}
